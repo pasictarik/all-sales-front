@@ -13,7 +13,7 @@
       <button class="nav-icon"><i class="far fa-user"></i></button>
     </div>
     <hr>
-    <div class="container">
+    <div class="container-fluid">
       <router-view/>
     </div>
   </div>
@@ -26,9 +26,6 @@ export default {
 </script>
 
 <style>
-  .container {
-    width: 1200px;
-  }
   #navbar {
     display: inline-block;
     text-align: left;

@@ -6,6 +6,8 @@ import router from './router'
 
 Vue.config.productionTip = false
 
+export const API = 'http://localhost:8080'
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
